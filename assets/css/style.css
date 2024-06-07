@@ -24,7 +24,7 @@ a {
 /* ! header */
 
 header {
-  margin-bottom: 700px;
+  margin-bottom: 30px;
 }
 
 header section {
@@ -68,21 +68,126 @@ header article {
 }
 
 header h1 {
-    font-size: 70px;
-    font-weight: 400;
+  font-size: 70px;
+  font-weight: 400;
 }
 
 header article p {
-    font-size: 24px;
+  font-size: 24px;
 }
 
-header article a {
-    font-size: 24px;
-    background-color: rgba(223, 170, 91, 1);
-    padding: 20px 100px;
-    border-radius: 20px;
+.btn {
+  font-size: 24px;
+  background-color: rgba(223, 170, 91, 1);
+  padding: 20px 100px;
+  border-radius: 10px;
+  color: white;
+  font-weight: 500;
+}
+
+/* ! main */
+/* facilities */
+
+main h2 {
+  font-size: 40px;
+  color: rgba(149, 117, 84, 1);
+  text-align: center;
+  margin-bottom: 30px;
+  font-weight: 500;
+}
+
+.facilities {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.facilities article {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 120px;
+  border-radius: 10px;
+  padding: 30px;
+}
+
+.facilities article:hover {
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+}
+
+.facilities article p {
+  font-size: 24px;
+  color: rgba(149, 117, 84, 1);
+}
+
+/* rooms */
+
+.rooms {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+  margin-bottom: 150px;
+}
+
+.rooms article {
+  height: 45vh;
+  flex-basis: 35%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 20px;
+  padding-bottom: 50px;
+  text-align: center;
+
+}
+
+.rooms article:hover {
+box-shadow: 0 0 5px black;
+}
+
+.rooms article:nth-of-type(1) {
+  background-image: url(../img/standard_twin_room.png);
+}
+
+.rooms article:nth-of-type(2) {
+  background-image: url(../img/standard_room.png);
+}
+
+.rooms article:nth-of-type(3) {
+  background-image: url(../img/standard_view_room.png);
+}
+
+.rooms article:nth-of-type(4) {
+  background-image: url(../img/deluxe_room.png);
+}
+
+.rooms h3 {
+    font-size: 36px;
     color: white;
     font-weight: 500;
 }
 
+.rooms a {
+  font-size: 24px;
+  background-color: rgba(223, 170, 91, 1);
+  border-radius: 10px;
+  color: white;
+  font-weight: 500;
+  padding: 20px 30px;
+}
 
+/* get a room */
+
+.getRoom {
+    text-align: center;
+    margin-bottom: 100px;
+}
