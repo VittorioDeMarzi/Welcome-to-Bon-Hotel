@@ -24,7 +24,7 @@ a {
 /* ! header */
 
 header {
-  height: 100vh;
+  margin-bottom: 700px;
 }
 
 header section {
@@ -33,14 +33,18 @@ header section {
 
 #logo {
   padding-top: 50px;
+  margin-bottom: 30px;
 }
 
 header nav {
+  background-color: rgba(255, 255, 255, 0.8);
+  height: 75px;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
   list-style: none;
-  margin-bottom: 40px;
+  position: sticky;
+  top: 0;
 }
 
 header nav a {
@@ -54,5 +58,31 @@ header article {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 70vh;
+  height: 65vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+  gap: 30px;
 }
+
+header h1 {
+    font-size: 70px;
+    font-weight: 400;
+}
+
+header article p {
+    font-size: 24px;
+}
+
+header article a {
+    font-size: 24px;
+    background-color: rgba(223, 170, 91, 1);
+    padding: 20px 100px;
+    border-radius: 20px;
+    color: white;
+    font-weight: 500;
+}
+
+
