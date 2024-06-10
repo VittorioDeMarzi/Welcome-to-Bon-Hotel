@@ -52,6 +52,19 @@ header nav a {
   color: rgba(149, 117, 84, 1);
   font-weight: 500;
   font-size: 24px;
+  padding: 0 10px;
+}
+
+header nav a:hover {
+  color: rgba(149, 116, 84, 0.5);
+}
+
+header nav img{
+  padding: 10px;
+}
+
+header nav img:hover {
+  filter: drop-shadow(0 0 4px rgba(149, 117, 84, 1));
 }
 
 header article {
@@ -80,10 +93,17 @@ header article p {
 .btn {
   font-size: 24px;
   background-color: rgba(223, 170, 91, 1);
+  border: 2px solid rgba(223, 170, 91, 1);
+
   padding: 20px 80px;
   border-radius: 10px;
   color: white;
   font-weight: 500;
+}
+
+.btn:hover {
+  background-color: rgba(223, 170, 91, 0.5);
+  border: 2px solid rgba(223, 170, 91, 0.7);
 }
 
 /* ! main */
@@ -179,10 +199,17 @@ main h2 {
 .rooms a {
   font-size: 24px;
   background-color: rgba(223, 170, 91, 1);
+  border: 2px solid rgba(223, 170, 91, 1);
+
   border-radius: 10px;
   color: white;
   font-weight: 500;
   padding: 20px 30px;
+}
+
+.rooms a:hover {
+  background-color: rgba(223, 170, 91, 0.5);
+  border: 2px solid rgba(223, 170, 91, 0.7);
 }
 
 .getRoom h2 {
@@ -226,6 +253,10 @@ footer {
 
 footer a {
   color: white;
+}
+
+footer a:hover {
+  color: rgba(255, 255, 255, 0.5);
 }
 
 .contact article {
